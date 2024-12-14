@@ -1,6 +1,3 @@
-#!/bin/bash
-
-# Function to display the banner
 banner() {
     echo -e "\033[31m
 .___..  ..___.__. * __.  .___..__..__..    __.
@@ -20,7 +17,6 @@ banner() {
     echo ""
 }
 
-# Function to handle WireShark
 ws() {
     clear
     echo -e "\033[34m1) Install\033[0m"
@@ -37,7 +33,6 @@ ws() {
     esac
 }
 
-# Function to handle Nmap
 nm() {
     clear
     echo -e "\033[34m1) Install\033[0m"
@@ -54,7 +49,6 @@ nm() {
     esac
 }
 
-# Function to handle Hydra
 hy() {
     clear
     echo -e "\033[34m1) Install\033[0m"
@@ -71,7 +65,6 @@ hy() {
     esac
 }
 
-# Function to handle John the Ripper
 jn() {
     clear
     echo -e "\033[34m1) Install\033[0m"
@@ -88,7 +81,6 @@ jn() {
     esac
 }
 
-# Function to handle Social Engineer Toolkit
 set() {
     clear
     echo -e "\033[34m1) Install\033[0m"
@@ -105,7 +97,6 @@ set() {
     esac
 }
 
-# Function to handle aircrack-ng
 ac() {
     clear
     echo -e "\033[34m1) Install\033[0m"
@@ -122,7 +113,6 @@ ac() {
     esac
 }
 
-# Main function to handle the menu
 main() {
     while true; do
         clear
@@ -142,5 +132,4 @@ main() {
     done
 }
 
-# Run the main function
 main
